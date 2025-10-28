@@ -96,7 +96,7 @@ def analyze_chart(image):
             f"{API_BASE}/vision/analyze",
             headers={"x-api-key": API_KEY},
             files=files,
-            timeout=30
+            timeout=90
         )
         
         if response.status_code != 200:
@@ -688,6 +688,10 @@ with gr.Blocks(css=custom_css, title="OXH AI - Demo") as demo:
     """)
 
 if __name__ == "__main__":
+    import os
     demo.queue()
-    demo.launch()
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 7860))
+    )
 
