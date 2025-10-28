@@ -19,9 +19,9 @@ No installation required - just click and explore!
 
 ## 📸 Preview
 
-![Demo Screenshot](https://via.placeholder.com/800x400/1e3a8a/ffffff?text=Add+Your+Screenshot+Here)
+![Signal Generator](screenshots/signal-generator.png)
 
-*Replace this with your actual demo screenshot*
+*AI-powered trading signals with real-time entry/exit levels*
 
 ---
 
@@ -192,15 +192,24 @@ Try the demo: [HuggingFace Spaces](https://huggingface.co/spaces/oxhai/oxher-ai-
 ## 📊 Screenshots
 
 ### Signal Generator
-![Signal Generator](https://via.placeholder.com/600x300/1e3a8a/ffffff?text=Signal+Generator+Screenshot)
+![Signal Generator](screenshots/signal-generator.png)
+*Real-time AI trading signals with entry/exit levels*
 
 ### Vision Analysis
-![Vision Analysis](https://via.placeholder.com/600x300/1e3a8a/ffffff?text=Vision+Analysis+Screenshot)
+![Vision Analysis](screenshots/vision-analysis.png)
+*GPT-5 Vision powered chart analysis*
 
 ### Technical Indicators
-![Technical Indicators](https://via.placeholder.com/600x300/1e3a8a/ffffff?text=Technical+Indicators+Screenshot)
+![Technical Indicators](screenshots/technical-indicators.png)
+*Comprehensive technical analysis dashboard*
 
-*Add your actual screenshots here*
+### Bulk Scanner
+![Bulk Scanner](screenshots/bulk-scanner.png)
+*Multi-pair scanning with ranked opportunities*
+
+### Price Checker
+![Price Checker](screenshots/price-checker.png)
+*Real-time price lookups for any trading pair*
 
 ---
 
