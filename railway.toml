@@ -1,8 +1,8 @@
 [build]
 builder = "NIXPACKS"
 
-[build.nixpacksOptions]
-pythonVersion = "3.10"
+[build.nixPkgs]
+pkgs = ["python310"]
 
 [deploy]
 startCommand = "python app.py"
