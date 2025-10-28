@@ -1,0 +1,17 @@
+
+# Example Charts
+
+Place sample chart images here for Vision Analysis demo.
+
+Supported formats:
+- PNG
+- JPG
+- JPEG
+
+Example filenames:
+- btc_chart.png
+- eth_chart.png
+- uptrend_pattern.png
+- support_resistance.png
+
+Users can upload their own charts during demo usage.
