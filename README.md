@@ -1,277 +1,156 @@
-# 🚀 OXH AI - Trading Signals Demo
-
-[![Try it on HuggingFace](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue.svg)](https://huggingface.co/spaces/oxhai/oxher-ai-playground)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
-[![Gradio 4.36.1](https://img.shields.io/badge/gradio-4.36.1-orange.svg)](https://gradio.app)
-
-> Live demonstration of OXH AI's trading signal platform using real production data and AI-powered analysis.
-
+---
+title: OXH AI - Trading Signals Demo
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 4.36.1
+app_file: app.py
+pinned: false
+license: mit
+tags:
+  - ai
+  - trading
+  - crypto
+  - bitcoin
+  - signals
+  - finance
+  - technical-analysis
+  - machine-learning
 ---
 
-## 🎮 Try It Now
+# OXH AI - AI-Powered Crypto Trading Signals
 
-### **[🚀 Launch Live Demo on HuggingFace Spaces](https://huggingface.co/spaces/oxhai/oxher-ai-playground)**
+Live Demo | Full platform: [oxher.com](https://www.oxher.com)
 
-No installation required - just click and explore!
+## About This Demo
 
----
+This is a live demonstration of OXH AI's trading signal platform using real production data. All signals, analysis, and indicators are generated in real-time from our API.
 
-## 📸 Preview
+## Features
 
-![Demo Screenshot](https://via.placeholder.com/800x400/1e3a8a/ffffff?text=Add+Your+Screenshot+Here)
-
-*Replace this with your actual demo screenshot*
-
----
-
-## ✨ Features
-
-### 1. **Signal Generator**
-- Real-time AI-powered trading signals
-- Entry/exit level recommendations
-- Stop loss and take profit calculations
-- Multi-timeframe analysis (1m to 1d)
+### 1. Signal Generator
+Generate AI-powered trading signals with:
+- Real-time entry/exit levels
+- Stop loss and take profit recommendations
+- Risk management calculations
+- Multi-timeframe analysis
 - Confidence scoring
-- Risk management integration
 
-### 2. **Vision Analysis**
-- Upload chart screenshots from any source
-- Automatic pattern recognition
-- Support/resistance detection
-- Trend analysis
-- Works with TradingView, Binance, Bybit, OKX charts
+### 2. Vision Analysis
+Upload chart screenshots from any source for AI-powered analysis:
+- Supported Sources: TradingView, Binance, Bybit, OKX, or any exchange chart
+- Simply take a screenshot and upload - our AI processes it automatically
+- Pattern recognition (head & shoulders, triangles, channels, wedges, etc.)
+- Support/resistance level detection
+- Trend analysis and entry/exit recommendations
+- No manual data input needed - just upload and get instant analysis
 
-### 3. **Technical Indicators**
+Want to test signals without risking real money?
+Visit [oxher.com](https://www.oxher.com) and try our Auto Signals Simulator feature:
+- Test signal quality in simulated environment
+- No real money required
+- No exchange account needed
+- No API key connection required
+- Just OXH credits and you're ready to go
+- Completely independent system - we never ask for your exchange credentials
+
+### 3. Technical Indicators
+Comprehensive technical analysis including:
 - RSI, MACD, Stochastic
 - Bollinger Bands, ATR
 - Moving averages (EMA, SMA)
 - Volume indicators (OBV, MFI)
 - ADX trend strength
 
-### 4. **Bulk Scanner**
-- Scan multiple trading pairs simultaneously
-- Multi-timeframe analysis
+### 4. Bulk Scanner
+Scan multiple trading pairs simultaneously:
+- Multi-symbol scanning
+- Multiple timeframe analysis
 - Ranked opportunities
 - Risk-adjusted signals
 
-### 5. **News Feed**
-- Real-time crypto news updates
-- Curated market news
+### 5. News Feed
+Stay updated with latest crypto news:
+- Real-time market updates
+- Curated crypto news
 - Source attribution
 
-### 6. **Price Checker**
-- Quick price lookups
-- Real-time market data
-- Support for 100+ trading pairs
+### 6. Price Checker
+Quick price lookups for any trading pair
+
+## Technology
+
+- Backend: Node.js/Express API
+- AI Models: GPT-5 Vision, Custom ML models
+- Data Sources: Binance, Bybit, OKX
+- Frontend Demo: Gradio (Python)
+
+## Full Platform Features
+
+The complete platform at [oxher.com](https://www.oxher.com) includes:
+
+- **Real-time signals** - Updated every minute with AI analysis
+- **100+ trading pairs** - Comprehensive market coverage
+- **Multi-exchange support** - Binance, Bybit, OKX
+- **Auto Signals Simulator** - Test signals without risking real money
+- **Vision Analysis** - Upload screenshots from any exchange
+- **Portfolio tracking** - Monitor your performance
+- **Telegram alerts** - Instant notifications
+- **Risk management tools** - Position sizing and stop loss recommendations
+- **API access for developers** - Integrate signals into your apps
+- **Webhook integrations** - Connect with external systems
+- **Historical performance tracking** - Analyze past signal accuracy
+
+### How It Works
+
+1. **Sign up** - Create a free account (no exchange connection needed)
+2. **Get OXH credits** - Purchase credits to access signals
+3. **Generate signals** - Use any feature with your credits
+4. **Test safely** - Try Auto Simulator before using real money
+5. **Execute manually** - You trade on YOUR OWN exchange account
+
+We NEVER:
+- Ask for your exchange API keys
+- Access your trading accounts
+- Hold your funds
+- Execute trades on your behalf
+
+You always maintain 100% control of your assets!
+
+## API Access
+
+This demo uses our public API. Developers can integrate OXH AI into their own applications.
+
+Get API access: [oxher.com/api-docs](https://www.oxher.com/ApiDocsPage)
+
+## Important Notes
+
+- Service Type: Signal platform only (not an exchange)
+- Risk Warning: Cryptocurrency trading involves substantial risk
+- No Custody: We never hold your funds
+- Educational: This demo is for demonstration purposes
+
+## Links
+
+- Website: [oxher.com](https://www.oxher.com)
+- GitHub: [github.com/oxhai](https://github.com/oxhai)
+- LinkedIn: [linkedin.com/company/oxhai](https://www.linkedin.com/company/oxhai/)
+- Telegram: [t.me/aioxh](https://t.me/aioxh)
+- YouTube: [youtube.com/@aioxh](https://www.youtube.com/@aioxh)
+
+## License
+
+MIT License - This demo is open source. The underlying API and models are proprietary.
+
+## Support
+
+For questions or support:
+- Visit our [Help Center](https://www.oxher.com/help)
+- Join our [Telegram Community](https://t.me/aioxh)
+- Create a [Support Ticket](https://www.oxher.com/help)
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Frontend:** Gradio 4.36.1
-- **Backend API:** Node.js/Express (production)
-- **AI Models:** GPT-5 Vision, Custom ML models
-- **Data Sources:** Binance, Bybit, OKX
-- **Language:** Python 3.10
-- **Deployment:** HuggingFace Spaces
-
----
-
-## 🏗️ Architecture
-
-```
-┌─────────────┐
-│   Gradio    │ ← User Interface
-│  Frontend   │
-└──────┬──────┘
-       │ HTTP Requests
-       ▼
-┌─────────────┐
-│  REST API   │ ← Production Backend
-│ (oxher.com) │
-└──────┬──────┘
-       │
-       ├─► Binance API
-       ├─► Bybit API
-       ├─► OKX API
-       └─► AI Models (GPT-5, Custom)
-```
-
----
-
-## 📦 Installation (Local Development)
-
-### Prerequisites
-- Python 3.10+
-- pip
-
-### Steps
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/oxhai/oxher-ai-demo.git
-cd oxher-ai-demo
-```
-
-2. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the app:**
-```bash
-python app.py
-```
-
-4. **Open in browser:**
-```
-http://localhost:7860
-```
-
----
-
-## 📋 Requirements
-
-```txt
-gradio==4.36.1
-requests==2.31.0
-pandas>=2.0.0
-tabulate==0.9.0
-pillow==10.2.0
-huggingface-hub==0.19.4
-pydantic==2.10.6
-```
-
----
-
-## 🔑 API Configuration
-
-This demo uses OXH AI's public API with a demo key. For production use:
-
-1. Visit [oxher.com](https://www.oxher.com)
-2. Sign up for an account
-3. Get your API key
-4. Replace `API_KEY` in `app.py`
-
-```python
-API_BASE = "https://www.oxher.com/api"
-API_KEY = "your_api_key_here"
-```
-
----
-
-## 🌐 Live Platforms
-
-### Full Production Platform
-Visit [oxher.com](https://www.oxher.com) for the complete platform with:
-- Real-time signals updated every minute
-- 100+ trading pairs
-- Multi-exchange support
-- Auto Signals Simulator (test without real money)
-- Portfolio tracking
-- Telegram alerts
-- API access for developers
-- Webhook integrations
-
-### Demo (This Project)
-Try the demo: [HuggingFace Spaces](https://huggingface.co/spaces/oxhai/oxher-ai-playground)
-
----
-
-## 🎯 Use Cases
-
-- **Traders:** Get AI-powered trading signals
-- **Developers:** See how to integrate trading APIs
-- **Data Scientists:** Explore technical indicator analysis
-- **Educators:** Teaching AI in finance
-- **Researchers:** Study trading algorithms
-
----
-
-## 📊 Screenshots
-
-### Signal Generator
-![Signal Generator](https://via.placeholder.com/600x300/1e3a8a/ffffff?text=Signal+Generator+Screenshot)
-
-### Vision Analysis
-![Vision Analysis](https://via.placeholder.com/600x300/1e3a8a/ffffff?text=Vision+Analysis+Screenshot)
-
-### Technical Indicators
-![Technical Indicators](https://via.placeholder.com/600x300/1e3a8a/ffffff?text=Technical+Indicators+Screenshot)
-
-*Add your actual screenshots here*
-
----
-
-## 🔗 Links
-
-- **Website:** [oxher.com](https://www.oxher.com)
-- **Live Demo:** [HuggingFace Space](https://huggingface.co/spaces/oxhai/oxher-ai-playground)
-- **GitHub:** [github.com/oxhai](https://github.com/oxhai)
-- **LinkedIn:** [linkedin.com/company/oxhai](https://www.linkedin.com/company/oxhai/)
-- **Telegram:** [t.me/aioxh](https://t.me/aioxh)
-- **YouTube:** [youtube.com/@aioxh](https://www.youtube.com/@aioxh)
-
----
-
-## ⚠️ Disclaimer
-
-This is a demonstration platform for educational purposes. 
-
-**Important:**
-- This is NOT financial advice
-- Cryptocurrency trading involves substantial risk
-- Always do your own research (DYOR)
-- Never invest more than you can afford to lose
-- We are a signal platform, NOT an exchange
-- We NEVER hold your funds or access your accounts
-
----
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details
-
-The demo code is open source. The underlying API and models are proprietary.
-
----
-
-## 🤝 Contributing
-
-This is a demo project showcasing our API. For feature requests or bug reports:
-
-1. Open an issue on GitHub
-2. Join our [Telegram Community](https://t.me/aioxh)
-3. Contact us via [oxher.com](https://www.oxher.com/help)
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [Gradio](https://gradio.app) by HuggingFace
-- Powered by OXH AI's proprietary trading algorithms
-- Market data from Binance, Bybit, and OKX
-- AI models: GPT-5 Vision and custom ML models
-
----
-
-## 📧 Contact & Support
-
-- **Website:** [oxher.com](https://www.oxher.com)
-- **Support:** [oxher.com/help](https://www.oxher.com/help)
-- **Telegram:** [t.me/aioxh](https://t.me/aioxh)
-- **Email:** Contact via website
-
----
-
-<div align="center">
-
-**⭐ Star this repo if you find it useful!**
-
-Built with ❤️ by the OXH AI Team
-
-[Website](https://www.oxher.com) • [Demo](https://huggingface.co/spaces/oxhai/oxher-ai-playground) • [Community](https://t.me/aioxh)
-
-</div>
+Built by OXH AI Team | Powering the future of AI trading signals
 
